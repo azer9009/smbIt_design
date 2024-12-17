@@ -1,0 +1,5 @@
+export const number1 = '+994 55 884 98 78'
+export const number2 = '+994 10 514 98 78'
+export const email = 'info@smbit.az'
+export const adress = 'Bakı Əhməd Rəcəbli 1/25'
+export const number3 = '+994 55 884 98 78'
