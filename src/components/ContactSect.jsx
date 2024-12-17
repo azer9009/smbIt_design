@@ -8,7 +8,7 @@ const ContactSect = () => {
       <p className='text-[46px] text-center text-[#161616f]'>Əlaqə</p>
 
       <div className='flex flex-col md:flex-row justify-between'>
-        {/* Map Section */}
+       
         <div className="w-full md:w-1/2 mb-8 md:mb-0 md:mr-[100px]">
           <iframe
             title="Nur Plaza"
@@ -19,11 +19,11 @@ const ContactSect = () => {
           />
         </div>
 
-        {/* Contact Info Section */}
+        
         <div className='bg-transparent border p-[25px] rounded-md flex flex-col gap-[30px] w-full md:w-1/2'>
           <p className='text-[24px] text-gray text-center'>Bizimlə əlaqəyə keç</p>
           <div className='flex flex-col gap-[20px]'>
-            {/* Phone Numbers */}
+            
             <div className='flex flex-col gap-[15px]'>
               <a href={`tel:${number1}`} className='flex items-center text-[#000000] duration-500'>
                 <svg className="h-4 w-4 text-[#B2BDFF] mr-2" stroke="currentColor" fill="#000000" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round">
@@ -51,7 +51,7 @@ const ContactSect = () => {
               </a>
             </div>
 
-            {/* Other Contact Info */}
+           
             <div className='flex flex-col gap-[15px]'>
               <a href={`mailto:${email}`} className='flex items-center text-[#000000] duration-500'>
                 <svg className="h-4 w-4 text-[#B2BDFF] mr-2" stroke="#FFFFFF" fill="#000000" strokeWidth="2" viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round">

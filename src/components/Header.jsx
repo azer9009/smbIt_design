@@ -6,9 +6,9 @@ import AmericanFlag from '../img/american_flag.png';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false); // State to toggle the menu on mobile
+  const [menuOpen, setMenuOpen] = useState(false); 
 
-  // Scroll event listener to toggle isScrolled
+  
   window.onscroll = () => {
     if (window.scrollY > 50) {
       setIsScrolled(true);
