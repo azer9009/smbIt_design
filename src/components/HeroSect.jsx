@@ -8,7 +8,7 @@ const HeroSect = () => {
     }} >
       <div className='flex flex-col mt-[120px] gap-[20px]  ' >
         <p className='text-[54px] ' >SMB IT</p>
-        <p className='text-[27px] text-[#dcb916]' >Peşəkar IT təhlükəsizlik və Ip kamera xidməti</p>
+        <p className='text-[27px] text-[#d4b423]' >Peşəkar IT təhlükəsizlik və Ip kamera xidməti</p>
         <p className='text-[20px]' >SMB IT Peşəkar IT komandası ilə 2020 ci ildən bu günə Kamera quraşdırılması, <br /> IT servisi və printer servisi ilə sizin xidmətinizdədir.</p>
         <BlueBtn>Bizimlə Əlaqəyə keç</BlueBtn>
       </div>
